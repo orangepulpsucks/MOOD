@@ -1,0 +1,18 @@
+h1 {
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+
+.dalle-image {
+    margin-top: 0px;
+    max-width:50%;
+    height: auto;
+}
+
+.input-container input {
+    margin-right: 5px;
+    width: 700px; /* Set a fixed width of 300 pixels */
+    padding: 0px;
+    box-sizing: border-box;
+}
+

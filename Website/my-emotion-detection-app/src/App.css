@@ -1,0 +1,104 @@
+/* Global styles */
+body {
+    margin-top: 0px;
+    padding: 0;
+}
+
+/* Styles for the entire application */
+h1 {
+    font-size: 55px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: monospace;
+    font-size: 0.8em;
+}
+
+/* SQUARE webcam container */
+.webcam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+/* CIRCLE webcam container */
+.circle-container {
+    margin-top: 10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+.detect-button {
+    margin-top: 5px;
+    padding: 8px 18px;
+    background-color: #161616;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    margin-right: 58px;
+}
+
+.back-button:hover {
+    background-color: #66CDAA;
+}
+
+.back-button {
+    margin-top: 10px;
+    padding: 8px 18px;
+    background-color: #161616;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+
+.detect-button:hover {
+    background-color: #66CDAA;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .circle-container {
+        margin-top: 20px;
+    }
+}
+
+.dalle-image {
+    margin-bottom: -60px;
+    max-width: 30%;
+    height: auto;
+}
+
+.logo-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32px;
+}
