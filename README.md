@@ -2,7 +2,8 @@
 
 ## Overview
 
-'MOOD' is a React application that integrates Google's Vision API / GPT-4 / DALL-E 3 to detect emotion and generate an image of the user's current state.  
+'MOOD' is a React application that integrates Google's Vision API / GPT-4 / DALL-E 3 to detect emotion and generate an image of the user's current state. 
+Click [here](https://www.youtube.com/watch?v=XFWfzq7Xrec) to see a demo.
 
 This is Anyah and Yu-Ri's final project submission for CS330.
 ## Features
